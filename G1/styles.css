@@ -46,16 +46,15 @@ h1 {
 }
 
 #img-change {
-  /* ESTA ES LA LÍNEA CLAVE: le dice al navegador que anime los cambios */
   transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1); 
   opacity: 1;
   transform: scale(1);
-  width: 50%; /* Mantén tus estilos anteriores */
+  width: 50%;
   border-radius: 10%;
 }
 
 #img-change.oculto {
   opacity: 0;
-  transform: scale(0.8); /* Un poco más pequeño para el efecto 'pop' */
-  filter: blur(5px);     /* Toque extra de elegancia */
+  transform: scale(0.8);
+  filter: blur(5px);
 }
