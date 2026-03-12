@@ -1,0 +1,31 @@
+*{
+     text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color:rgb(80, 80, 246);
+}
+body{
+    background-color: rgb(243, 251, 175);
+}
+h1{
+    color: rgb(231, 9, 135);
+}
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+div{
+
+    width: 500px;
+    height: auto;
+    margin: auto;
+
+}
+.tarea{
+    color: blueviolet;
+   font-size: 25px;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+img{
+    width: 200px;
+    height: auto;
+}
