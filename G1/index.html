@@ -2,18 +2,46 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
+    
+    <!-- LINKS EXTERNOS / CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- LINKS DEL PROYECTO / ESTRUCTURA -->
+    <link rel="stylesheet" href="./styles.css">
     <title>Actividad Git - Grupo 1</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
   </head>
   <body>
-    <h1>Actividad Git Colaborativa</h1>
+    <h1 class="text-center py-3 my-5">SAMWELLDU | SAMUEL QUEZADA G.</h1>
 
-    <p>Instrucciones:</p>
+    <div class="container-fill m-auto">
+      <div class="cardBoxTan card mx-5">
+        <p class="text-center my-5">¿Qué he aprendido en la clase de Git?</p>
 
-    <ul>
-      <li>Agrega tu nombre dentro de un párrafo</li>
-      <li>Agrega tu ciudad</li>
-      <li>Agrega un mensaje sobre qué aprendiste hoy de Git</li>
-      <li>Incorpora estilos y un script sencillo</li>
-    </ul>
+        <div class="row">
+          <div class="col-md-7">
+            <ul class="ul-tan text-left my-5">
+              <li class="my-3"><i class="bi bi-archive"></i> He aprendido a utilizar de forma correcta los repositorios.</li>
+              <li class="my-3"><i class="bi bi-diagram-3"></i> Aprendí sobre branch, algo que no concía en profundidad.</li>
+              <li class="my-3"><i class="bi bi-kanban-fill"></i> También he aprendido a clonar un proyecto público, algo muy útil para trabajar.</li>
+              <li class="my-3"><i class="bi bi-star-fill"></i> He trabajado con un branch propio, lo que me parece maravilloso.</li>
+              <button id="btn-change" class="btn btn-tan-change my-3">
+                AHORA VIENE JAVASCRIPT, CLIC PARA VER COMO ME SENTIRÉ
+              </button>
+            </ul>
+          </div>
+
+          <div class="col-md-5">
+            <div class="box-img-tan px-5">
+              <img id="img-change" class="mx-auto d-block shadow" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3N4Y3d4Zzl5c2tzNW5zY3NqOWl0ZjJzZDZwNG4wMXlycGRiZGV3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RLJxQtX8Hs7XytaoyX/giphy.gif" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
   </body>
 </html>
